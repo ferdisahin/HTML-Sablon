@@ -1,0 +1,12 @@
+
+.ikon-ok:before { content: '\e800'; } /* '' */
+.ikon-anasayfa:before { content: '\e804'; } /* '' */
+.ikon-grup:before { content: '\e805'; } /* '' */
+.ikon-puzzle:before { content: '\e806'; } /* '' */
+.ikon-begen:before { content: '\e807'; } /* '' */
+.ikon-telefon:before { content: '\e808'; } /* '' */
+.ikon-asagi-ok:before { content: '\e809'; } /* '' */
+.ikon-kes:before { content: '\e80a'; } /* '' */
+.ikon-kod:before { content: '\e80b'; } /* '' */
+.ikon-wordpress:before { content: '\e80c'; } /* '' */
+.ikon-mobil:before { content: '\e80d'; } /* '' */

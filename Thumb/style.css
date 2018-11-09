@@ -1,0 +1,584 @@
+body {
+	background: #f5f5f5 !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+.no-margin {
+	margin: 0px !important;
+}
+
+.no-padding {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+#header .tophead {
+	background: #dc0c0c;
+}
+
+#header .tophead .search {
+	margin: 16px 0;
+	width: 100%;
+}
+
+#header .tophead .search input {
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0px 0px 0px;
+	background: #ad0c0c;
+	color: #fff !important;
+}
+
+#header .tophead .search input::-webkit-input-placeholder {
+    color:    #f5f5f5;
+}
+
+#header .tophead .search input:-moz-placeholder {
+    color:    #f5f5f5;
+}
+
+#header .tophead .search input::-moz-placeholder {
+    color:    #f5f5f5;
+}
+
+#header .tophead .search input:-ms-input-placeholder {
+    color:    #f5f5f5;
+}
+
+#header .tophead .search button {
+	border: transparent;
+}
+
+#header .tophead .social {
+	margin: 0px;
+}
+
+#header .tophead .social li {
+	font-size: 20px;
+	margin: 0px;
+}
+
+#header .tophead .social li a {
+	display: block;
+	color: #f5f5f5;
+	padding: 19px 15px;	
+	transition: all 0.25s linear 0s;	
+}
+
+#header .tophead .social li a:hover {
+	background: #ad0c0c;	
+	color: #fff;
+}
+
+#header .headmenu {
+	background: #383030;
+	border-radius: 0;
+	border: none;
+}
+
+#header .headmenu ul li {
+	transition: all 0.25s linear 0s;
+}
+
+#header .headmenu ul li:hover {
+	background: #231b1b;
+}
+
+#content {
+
+}
+
+#content .left-sidebar {
+
+}
+
+#content .left-sidebar .column {
+	background: #fff;
+	margin-bottom: 10px;
+}
+
+#content .left-sidebar .column .title {
+	background: #DC0C0C;
+	color: #fff;
+	display: block;
+	overflow: hidden;
+}
+
+#content .left-sidebar .column .title h3 {
+	margin: 0px;
+	font-size: 17px;
+	padding: 10px;
+	background: #383030;
+	float: left;
+	position: relative;
+}
+
+
+#content .left-sidebar .column .title h3:after {
+	position: absolute;
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 38px 18px 0px 0px;
+	border-color: #383030 transparent transparent;
+	top: 0px;
+	right: -18px;	
+}
+
+#content .left-sidebar .column .inside {
+	padding: 10px;
+}
+
+#content .left-sidebar .column .cat {
+	background: #262626;
+}
+
+#content .left-sidebar .column .cat li a {
+	padding: 5px 15px;
+	display: block;
+	color: #fff;
+	transition: all 0.25s linear 0s;
+}
+
+#content .left-sidebar .column .cat li a .badge {
+	border-radius: 2px;
+	background: rgba(0,0,0,0.7);
+}
+
+#content .left-sidebar .column .cat li a:hover {
+	padding-left: 25px;
+	color: #c1dd07;
+	background: #1e1e1d;
+}
+
+#content .left-sidebar .column .cat li a:hover .badge {
+	color: #c1dd07;
+}
+
+#content .cont .carousel-indicators {
+	bottom: 0px;
+	margin: 0px;
+	left: 3px;
+	width: 100%;
+	text-align: left;
+}
+
+#content .cont .carousel-indicators .active {
+	background: #DC0C0C;
+	border: none;
+	margin: -5px -3px !important;
+	height: 15px;
+}
+
+#content .cont .carousel-indicators li {
+	background: #383030;
+	border-radius: 0px;
+	width: 25.30%;
+	border: none;
+	margin: -5px -3px !important;
+	height: 15px;
+}
+
+#content .cont .bottom {
+	margin: 10px 0;
+}
+
+#content .cont .bottom .author {
+	margin-bottom: 10px;
+	overflow: hidden;
+	background: #fff;
+	padding: 10px 0;
+}
+
+#content .cont .bottom .author h1 {
+	margin: 0px;
+	font-size: 20px;
+}
+
+#content .cont .bottom .title {
+	margin: 0px;
+	font-size: 25px;
+	background: #fff;
+	padding: 5px;
+	border-bottom: 3px solid #DC0C0C;
+}
+
+#content .cont .bottom .articles {
+	margin-top: 10px;
+}
+
+#content .cont .bottom .articles li {
+	background: #fff;
+	overflow: hidden;
+	padding: 10px 0;
+	border-bottom: 2px solid #dc0c0c;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+#content .cont .bottom .articles li .left span {
+	position: absolute;
+	top: 10px;
+	width: 100%;			
+}
+
+#content .cont .bottom .articles li .left span a {
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	padding: 5px;		
+}
+
+#content .cont .bottom .articles li .img-responsive {
+	transition: all 0.25s linear 0s;	
+}
+
+#content .cont .bottom .articles li .right h3 {
+	margin: 0px;
+}
+
+#content .cont .bottom .articles li .right h3 a {
+	color: #DC0C0C;
+	transition: all 0.25s linear 0s;	
+}
+
+#content .cont .bottom .articles li .right .btn-def {
+	background: #dc0c0c;
+	color: #fff;
+	padding: 2px 10px;
+	border-radius: 1px;
+	transition: all 0.25s linear 0s;	
+}
+
+#content .cont .bottom .articles li:hover h3 a {
+	color: #262626;
+}
+
+#content .cont .bottom .articles li:hover .btn-def {
+	background: #262626;
+}
+
+#content .cont .bottom .articles li:hover .img-responsive {
+	opacity: 0.8;	
+}
+
+#content .cont .post {
+	background: #fff;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#content .cont .post .title {
+	margin: 10px 0;
+}
+
+#content .cont .post .desc a {
+	color: #666;
+	margin-right: 10px;
+	transition: all 0.25s linear 0s;		
+}
+
+#content .cont .post .desc a:hover {
+	color: #DC0C0C;
+}
+
+#content .cont .post .desc span {
+	margin-right: 10px;
+}
+
+#content .cont .post .text {
+	margin: 10px 0;
+}
+
+#content .cont .post .tags {
+	font-weight: bold;
+}
+
+#content .cont .post .tags a {
+	margin-right: 5px;
+	color: #2d2d2d;
+	padding: 1px 5px;
+}
+
+#content .cont .post .tags a:hover {
+	background: #DC0C0C;
+	color: #fff;
+}
+
+#content .cont .post .ads {
+	margin: 10px 0;
+}
+
+#content .cont .post .related {
+	overflow: hidden;
+}
+
+#content .cont .post .related .title {
+	background: #DC0C0C;
+	color: #fff;
+	display: block;
+	overflow: hidden;
+}
+
+#content .cont .post .related .title h3 {
+	margin: 0px;
+	font-size: 17px;
+	padding: 10px;
+	background: #383030;
+	float: left;
+	position: relative;
+}
+
+
+#content .cont .post .related .title h3:after {
+	position: absolute;
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 38px 18px 0px 0px;
+	border-color: #383030 transparent transparent;
+	top: 0px;
+	right: -18px;	
+}
+
+#content .cont .post .related .rel {
+	position: relative;
+}
+
+#content .cont .post .related .rel img {
+	position: relative;
+}
+
+#content .cont .post .related .rel:hover .shadow {
+	opacity: 0.6;
+}
+
+#content .cont .post .related .rel .shadow {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	-webkit-box-shadow: inset 0px 0px 49px -1px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 49px -1px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 49px -1px rgba(0,0,0,1);
+	transition: all 0.25s linear 0s;	
+}
+
+#content .cont .post .related .rel h4 {
+	position: absolute;
+	bottom: 0px;
+	margin: 0px;
+	padding: 10px;
+	color: #fff;
+	font-size: 15px;
+}
+
+#content .cont .post .comments {
+	overflow: hidden;
+}
+
+#content .cont .post .comments .title {
+	background: #DC0C0C;
+	color: #fff;
+	display: block;
+	overflow: hidden;
+}
+
+#content .cont .post .comments .title h3 {
+	margin: 0px;
+	font-size: 17px;
+	padding: 10px;
+	background: #383030;
+	float: left;
+	position: relative;
+}
+
+
+#content .cont .post .comments .title h3:after {
+	position: absolute;
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 38px 18px 0px 0px;
+	border-color: #383030 transparent transparent;
+	top: 0px;
+	right: -18px;	
+}
+
+#content .cont .post .comments li {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+#content .cont .post .comments li .media-left img {
+	width: 64px;
+	height: 64px;
+}
+
+#content .cont .post .comments li .media-body .media-heading {
+	overflow: hidden;
+}
+
+#content .cont .post .comments li .media-body .media-heading a {
+	font-size: 14px;
+	color: #383030;
+	transition: all 0.25s linear 0s;	
+}
+
+#content .cont .post .comments li .media-body .media-heading a:hover {
+	color: #DC0C0C;
+}
+
+#content .cont .post .comments li .media-body .btn-def {
+	background: #DC0C0C;
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 1px;
+	transition: all 0.25s linear 0s;	
+}
+
+#content .cont .post .comments li .media-body .btn-def:hover {
+	background: #383030;
+}
+
+#content .cont .post .comments form input {
+	border-radius: 1px;
+}
+
+#content .cont .post .comments form input:focus, #content .cont .post .comments form textarea:focus {
+	box-shadow: 0px 0px 0px;
+	border: 1px solid #ddd;
+}
+
+#content .cont .post .comments form textarea {
+	border-radius: 1px;
+	resize: none;
+	height: 100px;
+}
+
+#content .cont .post .comments form .btn-submit {
+	background: #DC0C0C;
+	color: #fff;
+	border: none;
+	border-radius: 1px;
+	transition: all 0.25s linear 0s;	
+}
+
+#content .cont .post .comments form .btn-submit:hover {
+	background: #383030;	
+}
+
+#content .right-sidebar .column {
+	margin-bottom: 10px;
+}
+
+#content .right-sidebar .column .title {
+	background: #DC0C0C;
+	color: #fff;
+	display: block;
+	overflow: hidden;
+}
+
+#content .right-sidebar .column .title h3 {
+	margin: 0px;
+	font-size: 17px;
+	padding: 10px;
+	background: #383030;
+	float: left;
+	position: relative;
+}
+
+
+#content .right-sidebar .column .title h3:after {
+	position: absolute;
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 38px 18px 0px 0px;
+	border-color: #383030 transparent transparent;
+	top: 0px;
+	right: -18px;	
+}
+
+#content .right-sidebar .column .inside {
+	padding: 10px;
+	background: #fff;
+}
+
+#content .right-sidebar .column .tab-content {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-top: none;
+	padding: 10px;
+}
+
+#content .right-sidebar .column .nav-tabs {
+	padding: 0px;	
+}
+
+#content .right-sidebar .column .nav-tabs li {
+	padding: 0px;
+}
+
+#content .right-sidebar .column .nav-tabs li:hover {
+	padding: 0px;
+}
+
+#content .right-sidebar .column .nav-tabs li a {
+	font-size: 17px;
+	color: #666;
+}
+
+#content .right-sidebar .column .nav-tabs .active a {
+	color: #DC0C0C;
+}
+
+#content .right-sidebar .column ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#content .right-sidebar .column ul li {
+	list-style: none;
+	padding: 5px;	
+	transition: all 0.25s linear 0s;	
+}
+
+#content .right-sidebar .column ul li:hover {
+	background: #f2f2f2;
+	padding-left: 10px;
+}
+
+#content .right-sidebar .column ul li:hover a {
+	color: #DC0C0C;
+}
+
+#content .right-sidebar .column ul li a {
+	color: #666;
+}
+
+#footer {
+	background: #383030;
+	padding: 10px;
+	color: #f9f9f9;
+	border-top: 4px solid #DC0C0C;
+}
+
+#footer p {
+	margin: 0px;
+}
+
+#footer p a {
+	color: #999;
+	transition: all 0.25s linear 0s;		
+}
+
+#footer p a:hover {
+	color: #DC0C0C;
+}

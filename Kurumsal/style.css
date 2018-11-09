@@ -1,0 +1,265 @@
+/* */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300&subset=latin,latin-ext);
+
+body {
+	background: #f2f2f2;
+	font-family: 'Roboto', tahoma,calibri,arial;
+}
+
+a:hover, a:focus {
+	text-decoration: none !important;
+}
+
+#ust {
+	background: #3a3935;
+}
+
+#ust .gokkusagi {
+	position: absolute;
+	background: url('rsm/ustarka.png') repeat-x;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 2px;
+	z-index: 9999;
+}
+
+#ust .navbar-brand {
+	color: #fff;
+	height: 100%;
+	padding: 32px 15px;
+	font-size: 25px;
+}
+
+#ust ul.nav li a i {
+	display: block;
+	text-align: center;
+	margin: 5px 0;
+	font-size: 25px;
+}
+
+#ust ul.nav li a {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #dcdada;
+	transition: all 0.2s ease-out 0s;
+}
+
+#ust ul.nav li a:hover {
+	background: rgba(0,0,0,0.2);
+	color: #9ac004;
+}
+
+#kapak {
+	height: 88vh;
+    min-height: 35em;
+	padding: 10em 0 2.5em 0;
+	display: flex;
+	justify-content: center;	
+	background: url('rsm/ustresim.png') no-repeat center center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	color: #c2c6c9;
+	position: relative;
+}
+
+#kapak h1 {
+	font-weight: 300;
+}
+
+#kapak h3 {
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+#kapak .btn-transparan {
+	background: transparent;
+	border: 1px solid #777575;
+	color: #fff;
+	padding: 10px 30px;
+	opacity: 0.5;
+	transition: all 0.2s ease-out 0s;
+	margin: 30px 0;
+}
+
+#kapak .btn-transparan:hover {
+	opacity: 1;
+}
+
+#kapak .altok a {
+	border: 1px solid #777575;
+	border-radius: 50%;
+	padding: 10px;
+	color: #777575;
+}
+
+#hizmetler {
+	background: #f2f2f2;
+	height: 75vh;
+    min-height: 35em;
+	padding: 5em 0 2.5em 0;
+	color: #666;
+}
+
+#hizmetler .kutu .ikon {
+	font-size: 60px;
+}
+
+#hizmetler .kutu .baslik {
+	font-size: 28px;
+	font-weight: 400;
+}
+
+#hizmetler .kutu .aciklama {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#iletisimalan {
+	background: #353f3f;
+	padding: 10px 0;
+}
+
+#iletisimalan p {
+	margin: 15px 0;
+	padding: 0px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 300;
+}
+
+#iletisimalan .btn-genel {
+	background: #add806;
+	color: #fff;
+	text-shadow: 1px 1px #666;
+	margin: 8px 0;
+}
+
+#sayfa {
+	margin: 20px 0;
+}
+
+#sayfa .sol .sayfalar {
+	background: #3b3a39;
+}
+
+#sayfa .sol .sayfalar li:before {
+	content: "\E800";
+	font-family: 'fontello';
+	float: left;
+	padding: 10px;
+	color: #fff;
+	font-size: 12px;
+	transition: all 0.2s ease-out 0s;	
+}
+
+#sayfa .sol .sayfalar li a {
+	color: #fff;
+	display: block;
+	padding: 10px 5px;	
+	font-weight: 300;
+	transition: all 0.2s ease-out 0s;
+}
+
+#sayfa .sol .sayfalar li:hover::before {
+	color: #9ac004;
+}
+
+
+#sayfa .sol .sayfalar li a:hover {
+	background: rgba(0,0,0,0.5);
+	color: #9ac004;
+}
+
+#sayfa .sag {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+#sayfa .sag .baslik {
+	display: block;
+	margin: 5px 0;
+	font-size: 27px;
+	font-weight: 300;
+}
+
+#sayfa .projeler {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+#sayfa .projeler figure {
+	padding: 10px;
+}
+
+#sayfa .projeler figure:hover {
+	background: #f5f5f5;
+}
+
+#sayfa .projeler figure figcaption .baslik {
+	display: block;
+	font-size: 18px;
+	margin: 3px 0;
+}
+
+#sayfa .projeler figure figcaption .baslik a {
+	color: #666;
+}
+
+#alt {
+	background: #232323;
+	padding: 20px 0;
+	color: #f9f9f9;
+}
+
+#alt p {
+	margin: 0px;
+}
+
+#alt a {
+	color: #fff;
+}
+
+/* Mobil Ýçin Kodlar */
+
+@media only screen and (max-width: 768px) {
+	#ust .navbar-brand {
+		height: auto;
+		padding: 15px;
+		font-size: 20px;
+	}
+
+	#ust ul.nav li a i {
+		display: inline;
+		font-size: 15px;
+		margin-right: 10px;
+	}
+	
+	#kapak {
+		padding: 5em 0 2.5em 0;
+	}	
+	
+	#kapak h1 {
+		font-size: 20px;
+		font-weight: 300;
+	}
+
+	#kapak h3 {
+		font-weight: 300;
+		font-size: 14px;
+		letter-spacing: 0;
+		line-height: 20px;
+	}	
+	
+	#hizmetler {
+		height: auto;
+	}
+}

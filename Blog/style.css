@@ -1,0 +1,295 @@
+body {
+	background: #f2f2f2;
+	font-family: arial,tahoma,calibri;
+	font-size: 13px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 		
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.ortala {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+#header {
+	background: #058DC0;
+	border-bottom: 1px solid #25618C;
+	height: 70px;
+}
+
+#header .logo {
+	float: left;
+	padding: 19px 0;
+}
+
+#header .logo h1 {
+	float: left;
+	border-right: 1px solid #fff;
+	padding-right: 5px;
+}
+
+#header .logo h1 a {
+	font-weight: normal;
+	color: #fff;
+}
+
+#header .logo span {
+	float: left;
+	font-size: 20px;
+	padding: 3px 5px 0 5px;
+	color: #f2f2f2;
+}
+
+#header .arama {
+	float: right;
+	margin: 20px 0;
+}
+
+#header .arama input {
+	width: 300px;
+	height: 30px;
+	padding: 0 5px;
+	border: none;
+	background: #4A639C;
+	color: #8A95B1;
+}
+
+#alt {
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+
+#alt ul {
+	font-size: 16px;
+}
+
+#alt ul li {
+	float: left;
+	display: inline;
+}
+
+#alt ul li a {
+	float: left;
+	color: #666;
+	padding: 5px 20px 5px 0;
+}
+
+#icerik {
+	margin-top: 20px;
+}
+
+#icerik .sol {
+	float: left;
+	width: 25%;
+}
+
+#icerik .sol .widget {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+#icerik .sol .widget .baslik {
+	font-weight: normal;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+#icerik .sag {
+	float: right;
+	width: 73%;
+}
+
+#icerik .sag .yazi {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#icerik .sag .yazi .baslik {
+	font-weight: normal;
+	margin: 10px 0;
+}
+
+#icerik .sag .yazi .baslik a {
+	color: #058DC0;
+}
+
+#icerik .sag .yazi p {
+	font-size: 15px;
+	line-height: 22px;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+#icerik .sag .yazi .alt {
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+#icerik .sag .yazi .alt p {
+	margin-bottom: 0px;
+}
+
+#icerik .sag .yazi .alt .sl {
+	float: left;
+}
+
+#icerik .sag .yazi .alt .sg {
+	float: right;
+}
+
+#icerik .sag .yazi .alt a {
+	color: #4A639C;
+}
+
+#footer {
+	background: #fff;
+	border-top: 1px solid #ddd;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#footer ul {}
+
+#footer ul li {
+	display: inline;
+}
+
+#footer ul li a {
+	float: left;
+	color: #666;
+	padding: 5px;
+}
+
+#footer ul li a:hover {
+	color: #333;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 930px) {
+	.ortala {
+		width: 90%;
+	}
+	
+	#header {
+		height: auto;
+		overflow: hidden;
+	}
+	
+	#header .logo {
+		float: left;
+		padding: 20px 10px;
+	}
+	
+	#header .arama {
+		float: right;
+		padding: 20px 10px;
+		margin: 0px;
+	}
+	
+	#header .arama input {
+		width: 100%;
+	}
+	
+	#icerik .sol {
+		float: left;
+		width: 30%;
+	}
+	
+	#icerik .sag {
+		float: left;
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+	.ortala {
+		width: 100%;
+	}
+	
+	#header {
+		height: auto;
+		overflow: hidden;
+	}
+	
+	#header .logo {
+		float: left;
+		padding: 20px 10px;
+	}
+	
+	#header .arama {
+		float: right;
+		padding: 20px 10px;
+		margin: 0px;
+	}
+	
+	#header .arama input {
+		width: 100%;
+	}
+	
+	#icerik .sol {
+		float: none;
+		width: 100%;
+		padding: 10px;
+	}
+	
+	#icerik .sag {
+		float: none;
+		width: 100%;
+	}	
+}
+
+@media only screen and (max-width: 480px) {
+	.ortala {
+		width: 100%;
+	}
+	
+	#header {
+		height: auto;
+	}
+	
+	#header .logo {
+		float: none;
+		padding: 10 20px;
+	}
+	
+	#header .arama {
+		float: none;
+		padding: 10px 20px;
+	}
+	
+	#header .arama input {
+		width: 100%;
+	}
+	
+	#icerik .sol {
+		float: none;
+		width: 100%;
+	}
+	
+	#icerik .sag {
+		float: none;
+		width: 100%;
+	}
+}

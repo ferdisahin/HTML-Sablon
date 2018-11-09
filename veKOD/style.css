@@ -1,0 +1,255 @@
+/* */
+
+body {
+	background: #F0F2F5 !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+#header {
+	background: #fff;
+}
+
+#header .ust {
+	background: #F0F2F5;
+	padding: 5px 0;
+}
+
+#header .ust .ust-menu {
+	margin: 0px;
+	font-size: 13px;
+}
+
+#header .ust .ust-menu li {
+	border-right: 1px dotted #ddd;
+}
+
+#header .ust .ust-menu li:last-child {
+	border: none;
+}
+
+#header .ust .ust-menu li a {
+	color: #a6b3c4;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.46);
+}
+
+#header .alt {
+	background-color: #FFF;
+	border-top: 1px solid #dae1e1;
+	border-bottom: 1px solid #dae1e1;
+}
+
+#header .alt .logo h1 {
+	margin: 15px 0;
+}
+
+#header .alt .logo h1 a {
+	color: #666;
+}
+
+#header .alt .logo .mblmenu {
+	margin: 15px 5px;
+	background: #5E5652;
+	border: 1px solid #4b433f;
+	color: #fff;
+	border-radius: 0px;
+}
+
+#header .alt .menum  {
+	margin: 10px 0;
+}
+
+#header .alt .menum li {
+	background: #5E5652;
+}
+
+#header .alt .menum li:hover {
+	background: #4b433f !important;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.46) inset;
+}
+
+#header .alt .menum li a {
+	color: #fff;
+}
+
+#header .alt .menum li a:hover {
+	background: none;
+}
+
+.jumbotron {
+	background: url(rsm/kodlama.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+  color: #fff !important;
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+}
+
+.jumbotron h1 {
+	font-size: 40px !important;
+	text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.27), 0px 4px 15px rgba(0, 0, 0, 0.82);
+}
+
+.jumbotron p {
+	font-size: 20px !important;
+	text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.27), 0px 4px 15px rgba(0, 0, 0, 0.82);
+}
+
+.jumbotron .btn-genel {
+	background: #de4a4a;
+	color: #fff;
+	border-radius: 1px;
+	transition: all 0.2s ease-in-out 0s;	
+}
+
+.jumbotron .btn-genel:hover {
+	color: #fff;
+	background: #c83333;
+}
+
+#content {
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+#content .sol {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+#content .sol .onecikan {
+	width: 100%;
+	height: 300px;
+}
+
+#content .sol .btn-genel {
+	background: #de4a4a;
+	color: #fff;
+	border-radius: 1px;
+	transition: all 0.2s ease-in-out 0s;
+	margin: 10px 0;
+	width: 100%;
+}
+
+#content .sol .btn-genel:hover {
+	color: #fff;
+	background: #c83333;
+}
+
+#content .sol .alt {
+	margin-top: 10px;
+}
+
+#content .sol .alt .detay {
+	font-size: 19px;
+}
+
+#content .sag {
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-left: none;
+	padding: 10px;
+}
+
+#content .sag .well {
+	margin: 0px;
+}
+
+#content .sag .well h3 {
+	margin: 0px;
+	font-size: 35px;
+}
+
+#content .sag .btn-genel {
+	background: #de4a4a;
+	color: #fff;
+	border-radius: 1px;
+	transition: all 0.2s ease-in-out 0s;
+	margin: 10px 0;
+	width: 100%;
+}
+
+#content .sag .btn-genel:hover {
+	color: #fff;
+	background: #c83333;
+}
+
+#content .sag .table thead tr th {
+	text-align: center;
+}
+
+
+#kutu {
+	background: #fff;
+	padding: 10px;
+	box-shadow: 0px 1px 10px rgba(51, 92, 115, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.05);
+	border-radius: 2px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#kutu .media .media-left span {
+	font-size: 70px;
+}
+
+#kutu .baslik {
+	font-size: 25px;
+	margin: 5px 0;
+}
+
+#kutu .altbaslik {
+	font-size: 15px;
+	margin: 5px 0;
+	color: #666;
+}
+
+#kutu .thumbnail h3 {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+#kutu .thumbnail .btn-renk {
+	background: #de4a4a;
+	color: #fff;
+	transition: all 0.2s ease-in-out 0s;
+	border-radius: 1px;
+}
+
+#kutu .thumbnail .btn-renk:hover {
+	background: #c83333;
+}
+
+#footer {
+	background: #fff;
+	padding: 10px;
+	color: #8C9299;
+	border-top: 1px solid #ddd;
+}
+
+#footer a {
+	color: #8C9299;
+	font-weight: bold;
+}
+
+#footer .ust {
+	font-size: 14px;
+}
+
+#footer .ust p {
+	margin: 0px;
+	color: #8C9299;
+}
+
+#footer .ust span {
+	margin-right: 20px;
+	color: #666;
+}
+
+#footer .ust span:last-child {
+	margin-right: 0px;
+}

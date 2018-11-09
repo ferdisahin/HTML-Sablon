@@ -1,0 +1,504 @@
+/* Wordpress için Teknoloji Teması */
+
+body {
+    background: #ebebeb;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#ust {
+    background: #fff;
+    box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.28);    
+}
+
+#ust .logo {
+    background: #F5A623;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+#ust .logo h3 {
+    margin: 0;
+    display: inline-block;
+    border-right: 1px solid #fff;
+}
+
+#ust .logo h3 a {
+    display: block;
+    color: #fff;
+}
+
+#ust .logo .dropdown {
+    display: inline-block;
+}
+
+#ust .logo .dropdown .dropdown-toggle {
+    float: right;
+    transform: rotate(-90deg);    
+    display: inline-block;
+    padding: 25px 0;
+    background: 0;
+    border: 0;
+    color: #fff;
+}
+
+#ust .logo .dropdown .dropdown-toggle .fa {
+    transform: rotate(90deg);
+}
+
+#ust .logo .dropdown ul.dropdown-menu {
+    background: #f5a623;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    min-width: 300px;
+}
+
+#ust .logo .dropdown ul.dropdown-menu li {
+    width: 50%;
+    float: left;
+}
+
+#ust .logo .dropdown ul.dropdown-menu li a {
+    color: #fff;
+    padding: 5px;
+    margin: 3px 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;    
+}
+
+#ust .logo .dropdown ul.dropdown-menu li a:hover {
+    background: #EC9D1D;
+    border-radius: 3px;
+}
+
+#ust .sonyazilar .col-md-3 .yazi {
+    margin: 10px;
+}
+
+#ust .sonyazilar .col-md-3 .yazi a {
+    color: #535353;
+    display: block;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+#ust .sonyazilar .col-md-3:nth-child(1):before {
+    content: "1";
+    color: #ececec;
+    font-size: 38px;
+    float: left;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#ust .sonyazilar .col-md-3:nth-child(2):before {
+    content: "2";
+    color: #ececec;
+    font-size: 38px;
+    float: left;
+    font-weight: bold;
+    margin-right: 5px;    
+}
+
+#ust .sonyazilar .col-md-3:nth-child(3):before {
+    content: "3";
+    color: #ececec;
+    font-size: 38px;
+    float: left;
+    font-weight: bold;
+    margin-right: 5px;    
+}
+
+#ust .sonyazilar .col-md-3:nth-child(4):before {
+    content: "4";
+    color: #ececec;
+    font-size: 38px;
+    float: left;
+    font-weight: bold;
+    margin-right: 5px;    
+}
+
+#ust .arama {
+    background: #f7f7f7;
+    border: 1px solid #e1e1e1;   
+    border-radius: 3px;
+    border-left: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+#ust .arama input {
+    font-size: 11px;
+    border: 0;
+    box-shadow: 0 0 0;
+    border-radius: 0;
+    background: none;
+}
+
+#ust .arama button {
+    border: 0;
+    background: none;
+}
+
+#ust .arama button:Hover {
+    background: none !important;
+}
+
+#icerik {
+    margin-top: 20px;
+}
+
+#icerik .sol .slayt .swiper-slide {
+    position: relative;
+}
+
+#icerik .sol .slayt .swiper-slide .aciklama {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.45) 64%, rgba(56,56,56,0.01) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0,0,0,0.45) 64%, rgba(56,56,56,0.01) 100%);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.45) 64%, rgba(56,56,56,0.01) 100%);
+    color: #fff;
+}
+
+#icerik .sol .slayt .swiper-slide .aciklama .baslik {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#icerik .sol .yazikutu {
+    background: #fff;
+    margin-top: 15px;
+}
+
+#icerik .sol .yazikutu.iki .kbaslik {
+    background: #D0021B;
+}
+
+#icerik .sol .yazikutu.uc .kbaslik {
+    background: #BD10E0;
+}
+
+#icerik .sol .yazikutu.dort .kbaslik {
+    background: #4A4A4A;
+}
+
+#icerik .sol .yazikutu .kbaslik {
+    padding: 10px;
+    background: #f5a623;
+    color: #fff;
+}
+
+#icerik .sol .yazikutu .kbaslik .fa {
+    font-size: 18px;
+}
+
+#icerik .sol .yazikutu .alt {
+    padding: 10px;
+}
+
+#icerik .sol .yazikutu .post {
+    position: relative;
+}
+
+#icerik .sol .yazikutu .post .gorunur:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.50);
+}
+
+#icerik .sol .yazikutu .post img {
+    height: 215px;
+}
+
+#icerik .sol .yazikutu .post .aciklama {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 10px;
+}
+
+#icerik .sol .yazikutu .post .aciklama .baslik {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#icerik .sol .yazikutu .post .aciklama .saat {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+#icerik .sol .abonekutu {
+    background: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+#icerik .sol .abonekutu h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+}
+
+#icerik .sol .abonekutu p {
+    margin: 20px 0;
+}
+
+#icerik .sol .abonekutu .abonein input {
+    width: 85%;
+    float: left;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 0 0;
+}
+
+#icerik .sol .abonekutu .abonein button {
+    float: right;
+    background: #f5a623;
+    border: 0;
+    color: #fff;
+}
+
+#icerik .sag .sidebar .widget {
+    background: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#icerik .sag .sidebar .widget .wbaslik {
+    background: #f5a623;
+    padding: 10px;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#icerik .sag .sidebar .widget .wbaslik .fa {
+    font-size: 18px;
+}
+
+#icerik .sag .sidebar .widget .post .gorsel {
+    position: relative;
+}
+
+#icerik .sag .sidebar .widget .post .gorsel .baslik {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 10px;
+    line-height: 25px;
+    text-transform: uppercase;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.38) 0%, rgba(73,73,73,0.00) 100%);
+    background-image: -o-linear-gradient(rgba(0,0,0,0.38) 0%, rgba(73,73,73,0.00) 100%);
+    background-image: linear-gradient(rgba(0,0,0,0.38) 0%, rgba(73,73,73,0.00) 100%);
+}
+
+#icerik .sag .sidebar .widget .post .yazi {
+    padding: 10px 10px 0 10px;
+    font-size: 12px;
+}
+
+#icerik .sag .sidebar .widget .post .devam {
+    margin: 0 10px;
+    padding: 5px;
+    background: #50E3C2;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#icerik .sag .sidebar .widget .post .devam:hover {
+    background: #20CBA4;
+}
+
+#icerik .sag .sidebar .widget ul.tabalan {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;  
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #4a4a4a;    
+}
+
+#icerik .sag .sidebar .widget ul.tabalan li {
+    display: inline;
+    list-style: none;
+    -webkit-flex-grow: 1;
+    flex-grow: 1; 
+    text-align: center;
+}
+
+#icerik .sag .sidebar .widget ul.tabalan li.active a {
+    background: #fff;
+    color: #4a4a4a;
+}
+
+#icerik .sag .sidebar .widget ul.tabalan li:nth-child(1).active a {
+    border-top-left-radius: 5px;
+}
+
+#icerik .sag .sidebar .widget ul.tabalan li:nth-child(3).active a {
+    border-top-right-radius: 5px;
+}
+
+#icerik .sag .sidebar .widget ul.tabalan li a {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    padding: 5px;
+}
+
+#icerik .sag .sidebar .widget .tab-content {
+    padding: 10px;
+}
+
+#icerik .sag .sidebar .widget .tab-content .ipost {
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 10px;    
+}
+
+#icerik .sag .sidebar .widget .tab-content .ipost h1 {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.00) 100%);
+    background-image: -o-linear-gradient(rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.00) 100%);    
+}
+
+#icerik .sag .sidebar .widget .tab-content .ipost:hover h1 {
+    background-image: -webkit-linear-gradient(#000000 0%, rgba(0,0,0,0.00) 100%);
+    background-image: -o-linear-gradient(#000000 0%, rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(#000000 0%, rgba(0,0,0,0.00) 100%);  
+}
+
+#icerik .sag .sidebar .widget .media .media-left .media-object {
+    width: 45px;
+    height: 45px;
+}
+
+#icerik .sag .sidebar .widget .media .media-heading {
+    font-size: 14px;
+}
+
+#icerik .sag .sidebar .widget .media .media-heading a {
+    color: #4a4a4a;
+}
+
+#icerik .sag .sidebar .widget .alt .sosyal {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    position: relative;
+}
+
+#icerik .sag .sidebar .widget .alt .sosyal:before {
+    background: rgba(245,166,35,0.1);
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    content: "";
+    position: absolute;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#icerik .sag .sidebar .widget .alt .sosyal:hover:before {
+    width: 100%;
+    border-left: 5px solid #f5a623;    
+}
+
+#icerik .sag .sidebar .widget .alt .sosyal .buton {
+    background: #f5a623;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    margin-right: 10px;
+}
+
+#icerik .sag .sidebar .widget .alt .sosyal h1 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+#icerik .sag .sidebar .widget .alt .sosyal h2 {
+    margin: 5px 0;
+    font-size: 12px;
+    font-weight: normal;
+    color: #9B9B9B;
+}
+
+#alt {
+    background: #fff;
+    margin-top: 20px;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.11);    
+}
+
+#alt .sitebilgi {
+    background: #f5a623;
+    padding: 20px;
+}
+
+#alt .sitebilgi h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#alt .sitebilgi h1 a {
+    color: #fff;
+}
+
+#alt .sitebilgi p {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 10px;
+}

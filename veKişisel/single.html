@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Ferdi Şahin</title>
+	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var a = 0;
+			$('.menuAc').click(function(){
+				if ( a == 0 ){
+					$(this).text('Menüyü Gizle');
+					a++;
+				} else {
+					$(this).text('Menüyü Aç');
+					a = 0;
+				}
+				$(this).next('ul').slideToggle(500);
+			});
+		});
+	</script>		
+</head>
+<body>
+	<div id="header">
+		<div class="ortala">
+			<a class="logo" href="#">
+				<img src="rsm/logo.png" alt="Logo" />
+			</a>
+			
+			<div class="arama">
+				<input type="text" placeholder="Arama yap..." />
+				<input type="button" class="btn" value="Ara" />
+			</div>
+			
+			<ul class="menu">
+				<li><a href="#"><i class="fa fa-home"></i><span>Ana Sayfa</span></a></li>
+				<li><a href="#"><i class="fa fa-user"></i><span>Hakkımda</span></a></li>
+				<li class="gizle"><a href="#"><i class="fa fa-book"></i><span>Okuduklarım</span></a></li>
+				<li class="gizle"><a href="#"><i class="fa fa-music"></i><span>Dinlediklerim</span></a></li>
+				<li class="gizle"><a href="#"><i class="fa fa-film"></i><span>İzlediklerim</span></a></li>
+				<li><a href="#"><i class="fa fa-phone"></i><span>İletişim</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="altmenu">
+		<div class="ortala">
+			<div class="menuAc">Menüyü Aç</div>		
+			<ul class="am">
+				<li>
+					<div class="arama">
+					<input type="text" placeholder="Arama yap..." />
+					<input type="button" class="btn" value="Ara" />
+					</div>
+				</li>			
+				<li><a href="#">Ana Sayfa</a></li>
+				<li><a href="#">Teknoloji</a></li>
+				<li><a href="#">Mobil</a></li>
+				<li><a href="#">Oyun</a></li>
+				<li><a href="#">Yazılım</a></li>
+				<li><a href="#">İnternet</a></li>
+				<li><a href="#">Sosyal Medya</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="icerik">
+		<div class="ortala">
+		
+		<div class="duyuru"><p>veKOD Kişisel Blog Temamız şimdi %20 İndirimli olarak satın alabilirsiniz! (İlk 10 kişi için geçerlidir.)</p></div>
+		
+		<div class="sol">
+			<div class="yazi">
+				<a href=""><img class="foto" src="rsm/yazi.jpg" alt="" /></a>
+				
+				<div class="alt">
+					<h1 class="baslik"><a href="">Windows 10 yarın çıkıyor!</a></h1>
+					
+					<div class="bilgi">
+						<span class="tarih"><i class="fa fa-clock-o"></i> <p>17 Mart 2015</p></span>
+						<span class="yazar"><i class="fa fa-user"></i> <p>Ferdi Şahin</p></span>
+						<span class="kat"><i class="fa fa-bars"></i> <p>Genel</p></span>
+					</div>
+					
+					<div class="icyazi">
+						<p>Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır.Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır.Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır. Bu bir lorem ipsum yazısıdır.</p>
+					
+					</div>
+					
+					<div class="yorum">
+						<h1 class="baslik">Yorumlar (1)</h1>
+						
+						<ul class="yorumlar">
+						<li>
+							<div class="yorumk">
+								<div class="avatar">
+									<img src="rsm/avatar.png" alt="" />
+								</div>
+								<div class="ysag">
+									<span class="ad"><a href="">Ferdi Şahin</a></span>
+									<span class="tarih">18.03.2015</span>
+									<p class="y-rm">Bunun bir yorum olduğunu ikimizde biliyoruz dostum ;)Bunun bir yorum olduğunu ikimizde biliyoruz dostum ;)Bunun bir yorum olduğunu ikimizde biliyoruz dostum ;)Bunun bir yorum olduğunu ikimizde biliyoruz dostum ;)Bunun bir yorum olduğunu ikimizde biliyoruz dostum ;)</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="yorumk">
+								<div class="avatar">
+									<img src="rsm/avatar.png" alt="" />
+								</div>
+								<div class="ysag">
+									<span class="ad"><a href="">Ferdi Şahin</a></span>
+									<span class="tarih">18.03.2015</span>
+									<p class="y-rm">Bunun bir yorum olduğunu ikimizde biliyoruz dostum ;)Bunun bir yorum olduğunu ikimizde biliyoruz dostum ;)Bunun bir yorum olduğunu ikimizde biliyoruz dostum ;)Bunun bir yorum olduğunu ikimizde biliyoruz dostum ;)Bunun bir yorum olduğunu ikimizde biliyoruz dostum ;)</p>
+								</div>
+							</div>
+						</li>						
+						</ul>
+						
+						
+						<form action="">
+							<input type="text" placeholder="Adınız" />
+							<input type="text" placeholder="E-Posta Adresiniz" />
+							<input type="text" placeholder="Website Adresiniz" />
+							<textarea name="" id="" cols="30" rows="3"></textarea>
+							<input class="gonder" type="button" value="Gönder" />
+						</form>
+					</div>
+					
+				</div>
+			</div>
+	
+			
+		</div>
+		
+		<div class="sag">
+			<div class="widget gizle">
+				<h1 class="baslik">Hızlı Menü</h1>
+				<ul class="kutu">
+					<li><a href="#"><i class="fa fa-camera-retro"></i> <span>Teknoloji</span></a></li>
+					<li><a href="#"><i class="fa fa-mobile"></i> <span>Mobil</span></a></li>
+					<li><a href="#"><i class="fa fa-gamepad"></i> <span>Oyun</span></a></li>
+					<li><a href="#"><i class="fa fa-desktop"></i> <span>Yazılım</span></a></li>
+					<li><a href="#"><i class="fa fa-at"></i> <span>İnternet</span></a></li>
+					<li><a href="#"><i class="fa fa-tumblr"></i> <span>Sosyal Medya</span></a></li>
+				</ul>
+			</div>
+			
+			<div class="widget">
+			<h1 class="baslik">Rastgele yazılar</h1>
+				<ul class="son">
+					<li><a href="#">Ferdi Şahin Kimdir ?</a></li>
+					<li><a href="#">Ferdi Şahin Kimdir ?</a></li>
+					<li><a href="#">Ferdi Şahin Kimdir ?</a></li>
+					<li><a href="#">Ferdi Şahin Kimdir ?</a></li>
+					<li><a href="#">Ferdi Şahin Kimdir ?</a></li>
+				</ul>
+			</div>
+			
+			<div class="widget">
+				<h1 class="baslik">Kategoriler</h1>
+				<ul class="kat">
+					<li><a href="#"><p>Genel</p></a> <span class="sayac">5</span></li>
+					<li><a href="#"><p>Kategori</p></a><span class="sayac">10</span></li>				
+					<li><a href="#"><p>Kategori</p></a><span class="sayac">100</span></li>				
+					<li><a href="#"><p>Kategori</p></a><span class="sayac">9999</span></li>				
+					<li><a href="#"><p>Kategori</p></a><span class="sayac">562</span></li>				
+					<li><a href="#"><p>Kategori</p></a><span class="sayac">128</span></li>				
+				</ul>
+			</div>
+			
+			<div class="widget">
+			<h1 class="baslik">Popüler Yazılar</h1>
+				<ul class="son">
+					<li><a href="#">Ferdi Şahin Kimdir ?</a></li>
+					<li><a href="#">Ferdi Şahin Kimdir ?</a></li>
+					<li><a href="#">Ferdi Şahin Kimdir ?</a></li>
+					<li><a href="#">Ferdi Şahin Kimdir ?</a></li>
+					<li><a href="#">Ferdi Şahin Kimdir ?</a></li>
+				</ul>
+			</div>			
+		</div>
+		
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div id="footer">
+		<div class="ortala">
+			<ul class="um">
+				<li><a href="#">Ana Sayfa</a></li>
+				<li><a href="#">Hakkımda</a></li>
+				<li><a href="#">İletişim</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

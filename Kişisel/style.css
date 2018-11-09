@@ -1,0 +1,602 @@
+/*
+
+    1 - ÜST
+    2 - MANŞET
+    3 - İÇERİK
+
+*/
+
+body {
+    background: #ebebeb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#ust {
+    
+}
+
+#ust .ust {
+    background: #599EDE;
+}
+
+#ust .ust .logo {
+    padding: 25px 0;
+}
+
+#ust .ust .logo h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#ust .ust .logo h1 a {
+    color: #fff;
+}
+
+#ust .ust .menu {
+    margin-bottom: 0;
+}
+
+#ust .ust .menu li {
+    text-align: center;
+}
+
+#ust .ust .menu li a {
+    color: #fff;
+    padding: 8px 10px;
+    display: inline-block;
+}
+
+#ust .ust .menu li a i {
+    display: block;
+    font-size: 25px;
+}
+
+#ust .ust .menu li a span {
+    padding: 5px 0;
+    display: block;
+}
+
+#ust .ust .menu li a:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+#ust .alt {
+    background: #fff;
+    padding: 5px 0;
+}
+
+#ust .alt .arama {
+    border-bottom: 1px solid #ddd;      
+}
+
+#ust .alt .arama input {
+    border: 0;
+    box-shadow: none;
+}
+
+#ust .alt .arama .btn {
+    border: 0;
+    color: #9D9B9B;    
+}
+
+#ust .alt .arama .btn:hover {
+    background: transparent;
+}
+
+#ust .alt .sosyal {
+    margin: 0;
+}
+
+#ust .alt .sosyal li a {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+#ust .alt .sosyal li .fb {
+    background: #3B5998;
+}
+
+#ust .alt .sosyal li .tw {
+    background: #55ACEE;
+}
+
+#ust .alt .sosyal li .gp {
+    background: #DD4B39;
+}
+
+#ust .alt .sosyal li .yt {
+    background: #BB0000;
+}
+
+/***** MANŞET *****/
+
+#manset {
+    margin: 20px 0;
+}
+
+#manset .kutu {
+    position: relative;  
+}
+
+#manset .kutu .gorsel {
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;      
+}
+
+#manset .kutu .bilgi {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    background-image: -webkit-linear-gradient(rgba(89,158,222,0.00) 33%, rgba(75,140,201,0.66) 100%);
+    background-image: -o-linear-gradient(rgba(89,158,222,0.00) 33%, rgba(75,140,201,0.66) 100%);
+    background-image: linear-gradient(rgba(89,158,222,0.00) 33%, rgba(75,140,201,0.66) 100%);
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;        
+}
+
+#manset .kutu.iki .bilgi {
+    background-image: -webkit-linear-gradient(rgba(235,41,1,0.00) 33%, rgba(176,2,2,0.66) 100%);
+    background-image: -o-linear-gradient(rgba(235,41,1,0.00) 33%, rgba(176,2,2,0.66) 100%);
+    background-image: linear-gradient(rgba(235,41,1,0.00) 33%, rgba(176,2,2,0.66) 100%);    
+}
+
+#manset .kutu.uc .bilgi {
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.00) 33%, rgba(0,0,0,0.66) 100%);
+    background-image: -o-linear-gradient(rgba(0,0,0,0.00) 33%, rgba(0,0,0,0.66) 100%);
+    background-image: linear-gradient(rgba(0,0,0,0.00) 33%, rgba(0,0,0,0.66) 100%);   
+}
+
+#manset .kutu:hover > .bilgi {
+    padding: 30px 20px;
+}
+
+#manset .kutu .bilgi .kat a {
+    background: #599EDE;
+    color: #fff;
+    font-weight: 300;
+    padding: 3px 10px;
+    font-size: 13px;
+}
+
+#manset .kutu .bilgi .baslik {
+    margin: 10px 0 0 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#manset .kutu .bilgi .baslik a {
+    color: #fff;
+}
+
+/***** İÇERİK *****/
+
+#icerik {
+    margin-top: 20px;
+}
+
+#icerik .yazikutu {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+#icerik .yazikutu .kbaslik {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#icerik .yazikutu .kbaslik h1 {
+    color: #5F6163;
+    position: relative;
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    float: left;
+}
+
+#icerik .yazikutu .kbaslik h1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #599EDE;
+    bottom: -3px;
+}
+
+#icerik .yazikutu .alt {
+    background: #fff;
+}
+
+#icerik .yazikutu .alt .post {
+    padding: 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+}
+
+#icerik .yazikutu .alt .post .baslik {
+    margin: 0;
+    font-size: 20px;
+}
+
+#icerik .yazikutu .alt .post .baslik a {
+    color: #5F6163;
+}
+
+#icerik .yazikutu .alt .post .bilgi {
+    color: #807E7E;
+    margin-top: 5px;
+}
+
+#icerik .yazikutu .alt .post .bilgi .tarih {
+    margin-right: 10px;
+}
+
+#icerik .yazikutu .alt .post .bilgi .kat {
+    margin-right: 10px;
+}
+
+#icerik .yazikutu .alt .post .bilgi .kat a {
+    margin-right: 5px;
+    color: #807E7E;
+}
+
+#icerik .yazikutu .alt .post .bilgi .kat a:after {
+    content: ",";
+}
+
+#icerik .yazikutu .alt .post .bilgi .kat a:last-child:after {
+    display: none;
+}
+
+#icerik .yazikutu .alt .post p {
+    margin: 5px 0 0 0;
+    color: #6F6666;
+}
+
+#icerik .yazi {
+    background: #fff;
+}
+
+#icerik .yazi .gorsel {
+    position: relative;
+}
+
+#icerik .yazi .gorsel .bilgi {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.00) 0%, rgba(55,55,55,0.45) 100%);
+    background-image: -o-linear-gradient(rgba(255,255,255,0.00) 0%, rgba(55,55,55,0.45) 100%);
+    background-image: linear-gradient(rgba(255,255,255,0.00) 0%, rgba(55,55,55,0.45) 100%);    
+}
+
+#icerik .yazi .gorsel .bilgi .baslik {
+    margin: 0;
+    color: #fff;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.50);    
+}
+
+#icerik .yazi .gorsel .bilgi .alt {
+    margin-top: 10px;
+    color: #fff;
+}
+
+#icerik .yazi .gorsel .bilgi .alt a {
+    color: #fff;
+}
+
+#icerik .yazi .gorsel .bilgi .alt span {
+    margin-right: 10px;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.50);     
+}
+
+#icerik .yazi .gorsel .bilgi .alt span i {
+    margin-right: 5px;
+}
+
+#icerik .yazi .yaz {
+    padding: 20px;
+    line-height: 25px;
+}
+
+#icerik .yazi .sosyal {
+    padding: 0 20px 20px 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;     
+}
+
+#icerik .yazi .sosyal li {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;   
+}
+
+#icerik .yazi .sosyal li a {
+    padding: 10px;
+    display: block;
+    text-align: center; 
+    color: #fff;
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#icerik .yazi .sosyal li a:hover {
+    opacity: 1;
+}
+
+#icerik .yazi .sosyal li a i {
+    margin-right: 10px;
+}
+
+#icerik .yazi .sosyal li .fb {
+    background: #3B5998;
+}
+
+#icerik .yazi .sosyal li .tw {
+     background: #55ACEE;
+}
+
+#icerik .yazi .sosyal li .gp {
+     background: #DD4B39;
+}
+
+#icerik .yazarkutu {
+    background: #fff;
+    padding: 10px;
+}
+
+#icerik .yazarkutu .avatar img {
+    width: 100%;
+    height: auto;
+}
+
+#icerik .yazarkutu .ust {
+    overflow: hidden;
+}
+
+#icerik .yazarkutu .ust .ad {
+    font-size: 16px;
+}
+
+#icerik .yazarkutu .ust .ad a {
+    color: #575757;
+    font-weight: bold;
+}
+
+#icerik .yazarkutu .ust .sosyal li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#icerik .yazarkutu .ust .sosyal li .fb {
+    background: #3B5998;
+}
+
+#icerik .yazarkutu .ust .sosyal li .tw {
+    background: #55ACEE;
+}
+
+#icerik .yazarkutu .ust .sosyal li .gp {
+    background: #DD4B39;
+}
+
+#icerik .yazarkutu .alt p {
+    font-weight: 300;
+}
+
+#icerik .yorumkutu {
+    margin-top: 10px;
+}
+
+#icerik .yorumkutu .baslik {
+    color: #444;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#icerik .yorumkutu .yorum {
+    margin-top: 10px;
+}
+
+#icerik .yorumkutu .yorum .bilgi {
+    background: #fff;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#icerik .yorumkutu .yorum .bilgi .ust {
+    overflow: hidden;
+    color: #686868;
+}
+
+#icerik .yorumkutu .yorum .bilgi .ust a {
+    color: #686868;
+}
+
+#icerik .yorumkutu .yorum .bilgi .alt {
+    margin: 5px 0;
+}
+
+#icerik .yorumkutu .yorum .bilgi .alt .cevap {
+    background: #3E9DDB;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+#icerik .yorumkutu .yorumform {
+    margin: 10px 0;
+}
+
+#icerik .yorumkutu .yorumform input {
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#icerik .yorumkutu .yorumform textarea {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+    resize: none;
+}
+
+#icerik .yorumkutu .yorumform .yorumbtn {
+    background: #3E9DDB;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0;    
+}
+
+/***** SIDEBAR *****/
+
+#icerik .sidebar .widget {
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+#icerik .sidebar .widget .baslik {
+    background: #4E4F50;
+    overflow: hidden;
+}
+
+#icerik .sidebar .widget .baslik span {
+    background: #599EDE;
+    position: relative;
+    float: left;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+#icerik .sidebar .widget .baslik span:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 0 0px 30px;
+    border-color: transparent transparent transparent #599EDE;
+    bottom: 0;
+    right: -30px;
+}
+
+#icerik .sidebar .widget .alt {
+    padding: 10px;
+}
+
+#icerik .sidebar .widget .alt ul {
+    margin: 0;
+}
+
+#icerik .sidebar .widget .alt ul li {
+    padding: 5px 0;
+}
+
+#icerik .sidebar .widget .alt ul li a {
+    color: #666;
+}
+
+#icerik .sidebar .widget .alt ul li a:hover {
+    color: #599EDE;
+}
+
+#icerik .sidebar .widget .alt p {
+    margin: 0;
+}
+
+/***** ALT *****/
+
+#alt {
+    background: #3E3E3F;
+    color: #fff;
+    padding: 30px 0;
+}
+
+#alt .siteadi {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+#alt .aciklama {
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+#alt .sosyal {
+    margin-top: 20px;
+}
+
+#alt .sosyal li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.8;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;      
+}
+
+#alt .sosyal li a:hover {
+    opacity: 1;
+}
+
+#alt .sosyal li .fb {
+    background: #3B5998;
+}
+
+#alt .sosyal li .tw {
+    background: #55ACEE;
+}
+
+#alt .sosyal li .gp {
+    background: #DD4B39;
+}
+
+#alt .sosyal li .yt {
+    background: #BB0000;
+}
+
+#alt .sosyal li .in {
+    background: #DD4B39;
+}
